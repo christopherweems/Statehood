@@ -1,6 +1,7 @@
 // State.swift
 // 11/11/2020
 
+import Algorithms
 import Foundation
 import unstandard
 
@@ -113,6 +114,15 @@ public extension State {
         case .hawaii: "HI"
             
         }
+    }
+    
+}
+
+extension State {
+    public var fullName: String {
+        "\(self)".chunked { $0.isUppercase || $1.isLowercase }
+            .map(\.capitalized)
+            .joined(separator: " ")
     }
     
 }
