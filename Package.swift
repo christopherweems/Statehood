@@ -16,6 +16,7 @@ let package = Package(
             targets: ["Statehood"]),
     ],
     dependencies: [
+        .package(url: "https://github.com/apple/swift-algorithms", .upToNextMajor(from: "0.0.1")),
         .package(url: "https://github.com/christopherweems/unstandard.git", .branch("main")),
     ],
     targets: [
@@ -24,6 +25,7 @@ let package = Package(
         .target(
             name: "Statehood",
             dependencies: [
+                .product(name: "Algorithms", package: "swift-algorithms"),
                 .product(name: "unstandard", package: "unstandard"),
             ]),
         .testTarget(
