@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "Resultto",
+        "repositoryURL": "https://github.com/christopherweems/Resultto.git",
+        "state": {
+          "branch": null,
+          "revision": "33595e626d4cccdf61a375f0863803937e551c6f",
+          "version": "0.0.1"
+        }
+      },
+      {
         "package": "swift-algorithms",
         "repositoryURL": "https://github.com/apple/swift-algorithms",
         "state": {
@@ -23,9 +32,9 @@
         "package": "unstandard",
         "repositoryURL": "https://github.com/christopherweems/unstandard.git",
         "state": {
-          "branch": "main",
-          "revision": "6283a463700163b7433f3da2dd91e6578d5f7c5e",
-          "version": null
+          "branch": null,
+          "revision": "b3acfdbb35ba86ad4b7024f6c0a62a3267e93208",
+          "version": "0.0.6"
         }
       }
     ]
