@@ -2,8 +2,7 @@
 // 11/11/2020
 
 import Algorithms
-import Foundation
-import unstandard
+import Resultto
 
 public enum State: CaseIterable, Hashable {
     case deleware

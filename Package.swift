@@ -17,7 +17,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-algorithms", .upToNextMajor(from: "0.0.1")),
-        .package(url: "https://github.com/christopherweems/unstandard.git", .upToNextMajor(from: "0.0.6")),
+        .package(url: "https://github.com/christopherweems/Resultto.git", .upToNextMajor(from: "0.0.2")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -26,7 +26,7 @@ let package = Package(
             name: "Statehood",
             dependencies: [
                 .product(name: "Algorithms", package: "swift-algorithms"),
-                .product(name: "unstandard", package: "unstandard"),
+                .product(name: "Resultto", package: "Resultto"),
             ]),
         .testTarget(
             name: "StatehoodTests",
