@@ -16,7 +16,7 @@ let package = Package(
             targets: ["Statehood"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-algorithms", .upToNextMajor(from: "0.0.1")),
+        .package(url: "https://github.com/apple/swift-algorithms.git", .upToNextMajor(from: "0.0.1")),
         .package(url: "https://github.com/christopherweems/Resultto.git", .upToNextMajor(from: "0.0.2")),
     ],
     targets: [
