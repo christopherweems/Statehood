@@ -3,5 +3,6 @@
 /Packages
 /*.xcodeproj
 xcuserdata/
+package.xcworkspace/
 Package.resolved
 
