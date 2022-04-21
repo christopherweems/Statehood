@@ -4,7 +4,7 @@
 import Algorithms
 import Resultto
 
-public enum State: CaseIterable, Hashable {
+public enum State: CaseIterable, Hashable, Sendable {
     case deleware
     case pennsylvania
     case newJersey
