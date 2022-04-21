@@ -12,7 +12,6 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-algorithms.git", from: "1.0.0"),
-        .package(url: "https://github.com/christopherweems/Resultto.git", from: "0.2.2"),
         
     ],
     targets: [
@@ -20,7 +19,7 @@ let package = Package(
             name: "Statehood",
             dependencies: [
                 .product(name: "Algorithms", package: "swift-algorithms"),
-                .product(name: "Resultto", package: "Resultto"),
+                
             ]),
         
         /* Tests */
